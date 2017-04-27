@@ -8,7 +8,7 @@
 	<script language="JScript">
 		<![CDATA[
 			var objShell  = new ActiveXObject("WScript.Shell");	
-			objShell.run('"c:\Windows\System32\calc.exe"');				
+			objShell.run("calc.exe");				
 		]]>
 </script>
 </registration>
