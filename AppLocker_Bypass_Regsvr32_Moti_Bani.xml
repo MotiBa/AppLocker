@@ -7,7 +7,8 @@
 	<!--  License: BSD3-Clause -->
 	<script language="JScript">
 		<![CDATA[	
-			var r = new ActiveXObject("WScript.Shell").Run("C:\Temp\SysinternalsSuite\procexp.exe");		
+			var objShell  = new ActiveXObject("WScript.Shell");	
+			objShell.run('"C:\Temp\SysinternalsSuite\procexp.exe"');		
 		]]>
 </script>
 </registration>
