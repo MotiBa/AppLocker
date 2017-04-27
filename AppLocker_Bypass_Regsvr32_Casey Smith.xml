@@ -7,9 +7,8 @@
 	<!--  License: BSD3-Clause -->
 	<script language="JScript">
 		<![CDATA[
-	
-			var r = new ActiveXObject("WScript.Shell").Run("calc.exe");	
-	
+			var objShell  = new ActiveXObject("WScript.Shell");	
+			objShell.run('"c:\Windows\System32\calc.exe"');				
 		]]>
 </script>
 </registration>
