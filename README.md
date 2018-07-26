@@ -1,5 +1,5 @@
 # AppLocker hardening policies
-Here are [AppLocker hardening policies](https://github.com/MotiBa/AppLocker/tree/master/Policies) I created to disallow some known AppLocker bypasses. 
+Here is my collection of [AppLocker hardening policies](https://github.com/MotiBa/AppLocker/tree/master/Policies) I created to disallow some known AppLocker bypasses. 
 I build the rules using the following process:
 - Added Oddvar Moe excellent compiled list (https://github.com/api0cradle/UltimateAppLockerByPassList)
 - Added Microsoft recommended block rules (https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/microsoft-recommended-block-rules)
