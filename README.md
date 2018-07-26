@@ -1,9 +1,9 @@
 # AppLocker hardening policies
-Here is a list of policies I created to disallow some known AppLocker bypasses. 
+Here are [AppLocker hardening policies](https://github.com/MotiBa/AppLocker/tree/master/Policies) I created to disallow some known AppLocker bypasses. 
 I build the rules using the following process:
 - Added Oddvar Moe excellent compiled list (https://github.com/api0cradle/UltimateAppLockerByPassList)
 - Added Microsoft recommended block rules (https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/microsoft-recommended-block-rules)
-- Add my own analysis of Windows Server 2012 R2 and  Windows Server 2016 R2
+- Added my own analysis of Windows Server 2012 R2 and  Windows Server 2016 R2
 
 Credits: These rules were created based on the hard work and the dedication of many security professionals, including (twitter accounts): @subtee, @enigma0x3, @mattifestation, @gN3mes1s, @Oddvarmoe, @tifkin_, @aionescu, @NickTyrer, @Hexacorn, @monoxgas, @vector_sec, @KyleHanslovan, @Sudhanshu_C, @bohops, @Moriarty_Meng and @pabraeken 
 
