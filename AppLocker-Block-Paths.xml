@@ -1,0 +1,300 @@
+<AppLockerPolicy Version="1">
+  <RuleCollection Type="Exe" EnforcementMode="AuditOnly">
+    <FilePathRule Id="55ed2eed-37a7-4c81-906a-780968c70c1f" Name="Users-writable Path: %WINDIR%\Tasks\*" Description="" UserOrGroupSid="S-1-1-0" Action="Deny">
+      <Conditions>
+        <FilePathCondition Path="%WINDIR%\Tasks\*" />
+      </Conditions>
+    </FilePathRule>
+    <FilePathRule Id="afc72fbb-7137-4417-9d30-e14b8d3081d0" Name="Users-writable Path: %WINDIR%\Tracing\*" Description="" UserOrGroupSid="S-1-1-0" Action="Deny">
+      <Conditions>
+        <FilePathCondition Path="%WINDIR%\Tracing\*" />
+      </Conditions>
+    </FilePathRule>
+    <FilePathRule Id="4e98ac6a-4b5d-4296-9367-9ef6f8606703" Name="Users-writable Path: %SYSTEM32%\Tasks_Migrated\*" Description="" UserOrGroupSid="S-1-1-0" Action="Deny">
+      <Conditions>
+        <FilePathCondition Path="%SYSTEM32%\Tasks_Migrated\*" />
+      </Conditions>
+    </FilePathRule>
+    <FilePathRule Id="4d578eb1-cdde-40f7-a8b7-897e560a60e9" Name="Users-writable Path: %WINDIR%\servicing\Sessions\*" Description="" UserOrGroupSid="S-1-1-0" Action="Deny">
+      <Conditions>
+        <FilePathCondition Path="%WINDIR%\servicing\Sessions\*" />
+      </Conditions>
+    </FilePathRule>
+    <FilePathRule Id="b5ff3b4b-47a4-4261-a9a0-48a89e627844" Name="Users-writable Path: %WINDIR%\Registration\CRMLog\*" Description="" UserOrGroupSid="S-1-1-0" Action="Deny">
+      <Conditions>
+        <FilePathCondition Path="%WINDIR%\Registration\CRMLog\*" />
+      </Conditions>
+    </FilePathRule>
+    <FilePathRule Id="3ecd7c04-e57e-4955-a5bf-3906131862c4" Name="Users-writable Path: %WINDIR%\ServiceProfiles\LocalService\AppData\Local\Microsoft\Dlna\DeviceIcon\*" Description="" UserOrGroupSid="S-1-1-0" Action="Deny">
+      <Conditions>
+        <FilePathCondition Path="%WINDIR%\ServiceProfiles\LocalService\AppData\Local\Microsoft\Dlna\DeviceIcon\*" />
+      </Conditions>
+    </FilePathRule>
+    <FilePathRule Id="e0c4c621-5e13-41ba-8834-a16d9b681221" Name="Users-writable Path: %SYSTEM32%\FxsTmp\*" Description="" UserOrGroupSid="S-1-1-0" Action="Deny">
+      <Conditions>
+        <FilePathCondition Path="%SYSTEM32%\FxsTmp\*" />
+      </Conditions>
+    </FilePathRule>
+    <FilePathRule Id="818810cf-bd1b-424c-881a-a6d020377c6c" Name="Users-writable Path: %SYSTEM32%\Tasks\*" Description="" UserOrGroupSid="S-1-1-0" Action="Deny">
+      <Conditions>
+        <FilePathCondition Path="%SYSTEM32%\Tasks\*" />
+      </Conditions>
+    </FilePathRule>
+    <FilePathRule Id="dd255ac1-e20a-411b-983e-2e73b47b3f38" Name="Users-writable Path: %SYSTEM32%\com\dmp\*" Description="" UserOrGroupSid="S-1-1-0" Action="Deny">
+      <Conditions>
+        <FilePathCondition Path="%SYSTEM32%\com\dmp\*" />
+      </Conditions>
+    </FilePathRule>
+    <FilePathRule Id="e304c5e6-291b-4aee-a54a-5313a6f5fa29" Name="Users-writable Path: %SYSTEM32%\Drivers\DriverData\*" Description="" UserOrGroupSid="S-1-1-0" Action="Deny">
+      <Conditions>
+        <FilePathCondition Path="%SYSTEM32%\Drivers\DriverData\*" />
+      </Conditions>
+    </FilePathRule>
+    <FilePathRule Id="86fd35e0-5f7a-44f5-a2fb-42f22270b9b6" Name="Users-writable Path: %SYSTEM32%\spool\PRINTERS\*" Description="" UserOrGroupSid="S-1-1-0" Action="Deny">
+      <Conditions>
+        <FilePathCondition Path="%SYSTEM32%\spool\PRINTERS\*" />
+      </Conditions>
+    </FilePathRule>
+    <FilePathRule Id="9faed8ee-da2d-4aa6-b9d3-dd73ff14127f" Name="Users-writable Path: %SYSTEM32%\spool\SERVERS\*" Description="" UserOrGroupSid="S-1-1-0" Action="Deny">
+      <Conditions>
+        <FilePathCondition Path="%SYSTEM32%\spool\SERVERS\*" />
+      </Conditions>
+    </FilePathRule>
+    <FilePathRule Id="14e91fa3-c567-4e9f-a4b3-25ee23c54a43" Name="Users-writable Path: %SYSTEM32%\spool\drivers\color\*" Description="" UserOrGroupSid="S-1-1-0" Action="Deny">
+      <Conditions>
+        <FilePathCondition Path="%SYSTEM32%\spool\drivers\color\*" />
+      </Conditions>
+    </FilePathRule>
+    <FilePathRule Id="0a7803cc-deb4-42c3-9854-31537cc6d19a" Name="Users-writable Path: %WINDIR%\SysWOW64\FxsTmp\*" Description="" UserOrGroupSid="S-1-1-0" Action="Deny">
+      <Conditions>
+        <FilePathCondition Path="%WINDIR%\SysWOW64\FxsTmp\*" />
+      </Conditions>
+    </FilePathRule>
+    <FilePathRule Id="5f5e5fae-2640-41ba-b63c-3804283a883b" Name="Users-writable Path: %WINDIR%\SysWOW64\Tasks\*" Description="" UserOrGroupSid="S-1-1-0" Action="Deny">
+      <Conditions>
+        <FilePathCondition Path="%WINDIR%\SysWOW64\Tasks\*" />
+      </Conditions>
+    </FilePathRule>
+    <FilePathRule Id="d56351b3-c70a-4d6c-b2e4-4a7c89aba112" Name="Users-writable Path: %WINDIR%\SysWOW64\com\dmp\*" Description="" UserOrGroupSid="S-1-1-0" Action="Deny">
+      <Conditions>
+        <FilePathCondition Path="%WINDIR%\SysWOW64\com\dmp\*" />
+      </Conditions>
+    </FilePathRule>
+    <FilePathRule Id="0ad8fa11-365e-4e49-9049-8e896f8ee7f3" Name="Users-writable Path: %WINDIR%\Logs\OpsMgrTrace" Description="" UserOrGroupSid="S-1-1-0" Action="Deny">
+      <Conditions>
+        <FilePathCondition Path="%WINDIR%\Logs\OpsMgrTrace" />
+      </Conditions>
+    </FilePathRule>
+    <FilePathRule Id="8aa5928f-a0fd-49d3-8192-677b29c86cef" Name="Users-writable Path: %WINDIR%\servicing\Packages\*" Description="" UserOrGroupSid="S-1-1-0" Action="Deny">
+      <Conditions>
+        <FilePathCondition Path="%WINDIR%\servicing\Packages\*" />
+      </Conditions>
+    </FilePathRule>
+    <FilePathRule Id="3a2725b7-4717-47a7-8289-953fcacc10ba" Name="Users-writable Path: %WINDIR%\Temp\*" Description="" UserOrGroupSid="S-1-1-0" Action="Deny">
+      <Conditions>
+        <FilePathCondition Path="%WINDIR%\Temp\*" />
+      </Conditions>
+    </FilePathRule>
+  </RuleCollection>
+  <RuleCollection Type="Msi" EnforcementMode="NotConfigured" />
+  <RuleCollection Type="Script" EnforcementMode="AuditOnly">
+    <FilePathRule Id="0493d8a6-1313-4158-8347-97b5210db0bb" Name="Users-writable Path: %WINDIR%\Temp\*" Description="" UserOrGroupSid="S-1-1-0" Action="Deny">
+      <Conditions>
+        <FilePathCondition Path="%WINDIR%\Temp\*" />
+      </Conditions>
+    </FilePathRule>
+    <FilePathRule Id="c4cb943d-396a-43b3-a124-354bb33b9ae1" Name="Users-writable Path: %WINDIR%\Tracing\*" Description="" UserOrGroupSid="S-1-1-0" Action="Deny">
+      <Conditions>
+        <FilePathCondition Path="%WINDIR%\Tracing\*" />
+      </Conditions>
+    </FilePathRule>
+    <FilePathRule Id="3f077ed4-8287-44bc-a103-507e75014eb6" Name="Users-writable Path: %WINDIR%\Registration\CRMLog\*" Description="" UserOrGroupSid="S-1-1-0" Action="Deny">
+      <Conditions>
+        <FilePathCondition Path="%WINDIR%\Registration\CRMLog\*" />
+      </Conditions>
+    </FilePathRule>
+    <FilePathRule Id="4a11d042-15e4-4ac2-8357-46fbaa0f2d29" Name="Users-writable Path: %WINDIR%\ServiceProfiles\LocalService\AppData\Local\Microsoft\Dlna\DeviceIcon\*" Description="" UserOrGroupSid="S-1-1-0" Action="Deny">
+      <Conditions>
+        <FilePathCondition Path="%WINDIR%\ServiceProfiles\LocalService\AppData\Local\Microsoft\Dlna\DeviceIcon\*" />
+      </Conditions>
+    </FilePathRule>
+    <FilePathRule Id="137b5fc0-88b2-44a2-b041-6854d47c7417" Name="Users-writable Path: %SYSTEM32%\FxsTmp\*" Description="" UserOrGroupSid="S-1-1-0" Action="Deny">
+      <Conditions>
+        <FilePathCondition Path="%SYSTEM32%\FxsTmp\*" />
+      </Conditions>
+    </FilePathRule>
+    <FilePathRule Id="fd8b0540-4be8-40e0-b5f1-aaf2a60a68b1" Name="Users-writable Path: %SYSTEM32%\Tasks\*" Description="" UserOrGroupSid="S-1-1-0" Action="Deny">
+      <Conditions>
+        <FilePathCondition Path="%SYSTEM32%\Tasks\*" />
+      </Conditions>
+    </FilePathRule>
+    <FilePathRule Id="adc08305-c6fe-44f3-8bee-242ef878a0f3" Name="Users-writable Path: %SYSTEM32%\Tasks_Migrated\*" Description="" UserOrGroupSid="S-1-1-0" Action="Deny">
+      <Conditions>
+        <FilePathCondition Path="%SYSTEM32%\Tasks_Migrated\*" />
+      </Conditions>
+    </FilePathRule>
+    <FilePathRule Id="449ac295-e4f5-4d18-8857-56e2139f5e6c" Name="Users-writable Path: %SYSTEM32%\com\dmp\*" Description="" UserOrGroupSid="S-1-1-0" Action="Deny">
+      <Conditions>
+        <FilePathCondition Path="%SYSTEM32%\com\dmp\*" />
+      </Conditions>
+    </FilePathRule>
+    <FilePathRule Id="cc087233-35f7-480b-a8ee-3173846e385c" Name="Users-writable Path: %SYSTEM32%\spool\PRINTERS\*" Description="" UserOrGroupSid="S-1-1-0" Action="Deny">
+      <Conditions>
+        <FilePathCondition Path="%SYSTEM32%\spool\PRINTERS\*" />
+      </Conditions>
+    </FilePathRule>
+    <FilePathRule Id="f0a26bb5-d83b-4c0e-b7eb-f6abfb0f0857" Name="Users-writable Path: %SYSTEM32%\spool\SERVERS\*" Description="" UserOrGroupSid="S-1-1-0" Action="Deny">
+      <Conditions>
+        <FilePathCondition Path="%SYSTEM32%\spool\SERVERS\*" />
+      </Conditions>
+    </FilePathRule>
+    <FilePathRule Id="eb4ee599-a800-4ed6-bf40-3348c93e3d00" Name="Users-writable Path: %SYSTEM32%\spool\drivers\color\*" Description="" UserOrGroupSid="S-1-1-0" Action="Deny">
+      <Conditions>
+        <FilePathCondition Path="%SYSTEM32%\spool\drivers\color\*" />
+      </Conditions>
+    </FilePathRule>
+    <FilePathRule Id="3e1482c3-79af-4e83-b610-721dc48c60e8" Name="Users-writable Path: %WINDIR%\SysWOW64\FxsTmp\*" Description="" UserOrGroupSid="S-1-1-0" Action="Deny">
+      <Conditions>
+        <FilePathCondition Path="%WINDIR%\SysWOW64\FxsTmp\*" />
+      </Conditions>
+    </FilePathRule>
+    <FilePathRule Id="b1aadf0e-1eaf-461c-98fc-5c154b0a6abe" Name="Users-writable Path: %WINDIR%\SysWOW64\Tasks\*" Description="" UserOrGroupSid="S-1-1-0" Action="Deny">
+      <Conditions>
+        <FilePathCondition Path="%WINDIR%\SysWOW64\Tasks\*" />
+      </Conditions>
+    </FilePathRule>
+    <FilePathRule Id="a23da731-7f88-4088-aff7-1628f6d750d3" Name="Users-writable Path: %WINDIR%\servicing\Packages\*" Description="" UserOrGroupSid="S-1-1-0" Action="Deny">
+      <Conditions>
+        <FilePathCondition Path="%WINDIR%\servicing\Packages\*" />
+      </Conditions>
+    </FilePathRule>
+    <FilePathRule Id="72a7b2cf-296d-43fc-a98d-2977a2eb8ae1" Name="Users-writable Path: %WINDIR%\servicing\Sessions\*" Description="" UserOrGroupSid="S-1-1-0" Action="Deny">
+      <Conditions>
+        <FilePathCondition Path="%WINDIR%\servicing\Sessions\*" />
+      </Conditions>
+    </FilePathRule>
+    <FilePathRule Id="a9acff43-06fa-445f-8c6c-56c64af8caed" Name="Users-writable Path: %WINDIR%\Logs\OpsMgrTrace\*" Description="" UserOrGroupSid="S-1-1-0" Action="Deny">
+      <Conditions>
+        <FilePathCondition Path="%WINDIR%\Logs\OpsMgrTrace" />
+      </Conditions>
+    </FilePathRule>
+    <FilePathRule Id="4cb8c344-071b-4b4f-85c4-21d67ddc064c" Name="Users-writable Path: %WINDIR%\SysWOW64\com\dmp\*" Description="" UserOrGroupSid="S-1-1-0" Action="Deny">
+      <Conditions>
+        <FilePathCondition Path="%WINDIR%\SysWOW64\com\dmp\*" />
+      </Conditions>
+    </FilePathRule>
+    <FilePathRule Id="dde614f4-ed3b-4e62-a44a-00b88330b8e1" Name="Users-writable Path: %WINDIR%\Tasks\*" Description="" UserOrGroupSid="S-1-1-0" Action="Deny">
+      <Conditions>
+        <FilePathCondition Path="%WINDIR%\Tasks\*" />
+      </Conditions>
+    </FilePathRule>
+    <FilePathRule Id="4c9a142a-b2d6-48e1-baa3-1d3dea839cf0" Name="Users-writable Path: %SYSTEM32%\Drivers\DriverData\*" Description="" UserOrGroupSid="S-1-1-0" Action="Deny">
+      <Conditions>
+        <FilePathCondition Path="%SYSTEM32%\Drivers\DriverData\*" />
+      </Conditions>
+    </FilePathRule>
+    <FilePathRule Id="32181f38-aed2-462d-8777-ffff4186645e" Name="Block CL_Invocation.ps1 (script)" Description="" UserOrGroupSid="S-1-1-0" Action="Deny">
+      <Conditions>
+        <FilePathCondition Path="%WINDIR%\diagnostics\system\AERO\CL_Invocation.ps1" />
+      </Conditions>
+    </FilePathRule>
+  </RuleCollection>
+  <RuleCollection Type="Dll" EnforcementMode="AuditOnly">
+    <FilePathRule Id="b6d286a3-42ff-4e13-a2bb-72f09dcae8e9" Name="Users-writable Path: %WINDIR%\Tasks\*" Description="" UserOrGroupSid="S-1-1-0" Action="Deny">
+      <Conditions>
+        <FilePathCondition Path="%WINDIR%\Tasks\*" />
+      </Conditions>
+    </FilePathRule>
+    <FilePathRule Id="e38ae7b1-dbe3-4120-845e-004beb4b5502" Name="Users-writable Path: %WINDIR%\Temp\*" Description="" UserOrGroupSid="S-1-1-0" Action="Deny">
+      <Conditions>
+        <FilePathCondition Path="%WINDIR%\Temp\*" />
+      </Conditions>
+    </FilePathRule>
+    <FilePathRule Id="2a3cf7ad-0380-4051-8bc6-40287d89c17b" Name="Users-writable Path: %WINDIR%\Tracing\*" Description="" UserOrGroupSid="S-1-1-0" Action="Deny">
+      <Conditions>
+        <FilePathCondition Path="%WINDIR%\Tracing\*" />
+      </Conditions>
+    </FilePathRule>
+    <FilePathRule Id="a2222c09-af5e-4e01-a02c-3abb6f4edfc9" Name="Users-writable Path: %WINDIR%\Registration\CRMLog\*" Description="" UserOrGroupSid="S-1-1-0" Action="Deny">
+      <Conditions>
+        <FilePathCondition Path="%WINDIR%\Registration\CRMLog\*" />
+      </Conditions>
+    </FilePathRule>
+    <FilePathRule Id="dd3c96b1-52c2-4230-b70d-885a6f473e9e" Name="Users-writable Path: %WINDIR%\ServiceProfiles\LocalService\AppData\Local\Microsoft\Dlna\DeviceIcon\*" Description="" UserOrGroupSid="S-1-1-0" Action="Deny">
+      <Conditions>
+        <FilePathCondition Path="%WINDIR%\ServiceProfiles\LocalService\AppData\Local\Microsoft\Dlna\DeviceIcon\*" />
+      </Conditions>
+    </FilePathRule>
+    <FilePathRule Id="46334e8e-3bfc-487d-873b-beaf25b3fcd4" Name="Users-writable Path: %SYSTEM32%\FxsTmp\*" Description="" UserOrGroupSid="S-1-1-0" Action="Deny">
+      <Conditions>
+        <FilePathCondition Path="Users-writable Path: %SYSTEM32%\FxsTmp\*" />
+      </Conditions>
+    </FilePathRule>
+    <FilePathRule Id="c6a29673-70eb-4211-9207-8c650e3ceafc" Name="Users-writable Path: %SYSTEM32%\Tasks\*" Description="" UserOrGroupSid="S-1-1-0" Action="Deny">
+      <Conditions>
+        <FilePathCondition Path="%SYSTEM32%\Tasks\*" />
+      </Conditions>
+    </FilePathRule>
+    <FilePathRule Id="7e9ac6aa-f858-446f-8dc4-89879bdd56c6" Name="Users-writable Path: %SYSTEM32%\Tasks_Migrated\*" Description="" UserOrGroupSid="S-1-1-0" Action="Deny">
+      <Conditions>
+        <FilePathCondition Path="%SYSTEM32%\Tasks_Migrated\*" />
+      </Conditions>
+    </FilePathRule>
+    <FilePathRule Id="3c86820e-dd58-4935-bc06-cbdf09b0e1b7" Name="Users-writable Path: %SYSTEM32%\com\dmp\*" Description="" UserOrGroupSid="S-1-1-0" Action="Deny">
+      <Conditions>
+        <FilePathCondition Path="%SYSTEM32%\com\dmp\*" />
+      </Conditions>
+    </FilePathRule>
+    <FilePathRule Id="7a35d9f9-d3cf-48d0-97d1-9de7c6cdfd3d" Name="Users-writable Path: %SYSTEM32%\Drivers\DriverData\*" Description="" UserOrGroupSid="S-1-1-0" Action="Deny">
+      <Conditions>
+        <FilePathCondition Path="%SYSTEM32%\Drivers\DriverData\*" />
+      </Conditions>
+    </FilePathRule>
+    <FilePathRule Id="83588128-21e7-47f5-bcd8-2eb8694fa98d" Name="Users-writable Path: %SYSTEM32%\spool\PRINTERS\*" Description="" UserOrGroupSid="S-1-1-0" Action="Deny">
+      <Conditions>
+        <FilePathCondition Path="%SYSTEM32%\spool\PRINTERS\*" />
+      </Conditions>
+    </FilePathRule>
+    <FilePathRule Id="57641173-8b49-467b-926c-6f09493c3292" Name="Users-writable Path: %SYSTEM32%\spool\SERVERS\*" Description="" UserOrGroupSid="S-1-1-0" Action="Deny">
+      <Conditions>
+        <FilePathCondition Path="%SYSTEM32%\spool\SERVERS\*" />
+      </Conditions>
+    </FilePathRule>
+    <FilePathRule Id="84b6e1bb-777a-4a22-a088-0f21c2e85869" Name="Users-writable Path: %SYSTEM32%\spool\drivers\color\*" Description="" UserOrGroupSid="S-1-1-0" Action="Deny">
+      <Conditions>
+        <FilePathCondition Path="%SYSTEM32%\spool\drivers\color\*" />
+      </Conditions>
+    </FilePathRule>
+    <FilePathRule Id="474a6a68-c5a7-47a8-806a-7d52730ae751" Name="Users-writable Path: %WINDIR%\SysWOW64\FxsTmp\*" Description="" UserOrGroupSid="S-1-1-0" Action="Deny">
+      <Conditions>
+        <FilePathCondition Path="%WINDIR%\SysWOW64\FxsTmp\*" />
+      </Conditions>
+    </FilePathRule>
+    <FilePathRule Id="bdcbb3cc-3b04-4520-9929-1fdafdcca3aa" Name="Users-writable Path: %WINDIR%\SysWOW64\Tasks\*" Description="" UserOrGroupSid="S-1-1-0" Action="Deny">
+      <Conditions>
+        <FilePathCondition Path="%WINDIR%\SysWOW64\Tasks\*" />
+      </Conditions>
+    </FilePathRule>
+    <FilePathRule Id="6899a5b9-6205-4c3a-b50e-a01a7c0bc112" Name="Users-writable Path: %WINDIR%\SysWOW64\com\dmp\*" Description="" UserOrGroupSid="S-1-1-0" Action="Deny">
+      <Conditions>
+        <FilePathCondition Path="%WINDIR%\SysWOW64\com\dmp\*" />
+      </Conditions>
+    </FilePathRule>
+    <FilePathRule Id="ca01de33-631b-4a60-a8cb-f83f3fb5f4a8" Name="Users-writable Path: %WINDIR%\Logs\OpsMgrTrace\*" Description="" UserOrGroupSid="S-1-1-0" Action="Deny">
+      <Conditions>
+        <FilePathCondition Path="%WINDIR%\Logs\OpsMgrTrace\*" />
+      </Conditions>
+    </FilePathRule>
+    <FilePathRule Id="57a934a5-8d25-4dbd-91e8-a82489565b83" Name="Users-writable Path: %WINDIR%\servicing\Packages\*" Description="" UserOrGroupSid="S-1-1-0" Action="Deny">
+      <Conditions>
+        <FilePathCondition Path="%WINDIR%\servicing\Packages\*" />
+      </Conditions>
+    </FilePathRule>
+    <FilePathRule Id="8a1f9f03-4b86-4351-8216-94360af32e23" Name="Users-writable Path: %WINDIR%\servicing\Sessions\*" Description="" UserOrGroupSid="S-1-1-0" Action="Deny">
+      <Conditions>
+        <FilePathCondition Path="%WINDIR%\servicing\Sessions\*" />
+      </Conditions>
+    </FilePathRule>
+  </RuleCollection>
+  <RuleCollection Type="Appx" EnforcementMode="NotConfigured" />
+</AppLockerPolicy>
