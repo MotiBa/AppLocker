@@ -1,1 +1,1 @@
-# AppLocker
+# AppLocker hardening policies
